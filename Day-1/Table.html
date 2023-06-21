@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Table Page
+    </title>
+
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+    
+</head>
+<body >
+
+    
+    <table  height="400"   width="600"  align="center">
+        <caption>Student Details</caption>
+  
+        <tr  style="  background-color: red;">
+            <th>Enrollment no.</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr style="background-color: rgb(240, 227, 108);">
+            <td>21020302704</td>
+            <td>96*****56</td>
+            <td>Germany</td>
+        </tr>
+        <tr style="background-color: rgb(240, 227, 108);">
+            <td>21020304545</td>
+            <td>5555****5</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+    <hr>
+    <hr>
+    <table  height="400"   width="600"  align="center">
+        <caption>Student Details</caption>
+  
+        <tr  >
+            <th>Enrollment no.</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr >
+            <td>21020302704</td>
+            <td rowspan="2">96*****56</td>
+            <td>Germany</td>
+        </tr>
+        <tr >
+            <td>21020302704</td>
+            
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td colspan="3">21020304545</td>
+            
+        </tr>
+    </table>
+
+</body>
+
+</html>
