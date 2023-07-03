@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display_none By Id & Class Name</title>
+        <style>
+             button {
+            border-radius: 4px;
+            background-color: darkblue;
+            color: aqua;
+            width: 100px;
+            height: 50px;
+            cursor: pointer;
+            margin: 25px;
+            margin: 10px;
+
+        }
+
+        button:hover {
+            color: rgb(8, 44, 44);
+            background-color: burlywood;
+        }
+
+        </style>
+    </head>
+<body>
+
+
+<p id="demo">JavaScript can hide HTML elements.</p>
+<button type="button" onclick="document.getElementById('demo').style.display='none' ">Click Me! To Hide </button>
+<button type="button" onclick="document.getElementById('demo').style.display='Block'">Click Me! To Show</button>
+<hr>
+
+<img src="4.jpg" width="200px" height="200px" alt="" id="demo1">
+
+
+<button type="button" onclick="document.getElementById('demo1').style.display='none'">Click Me! To Hide image </button>
+<button type="button" onclick="document.getElementById('demo1').style.display='Block'">Click Me! To Show Show</button>
+
+
+</body>
+</html> 

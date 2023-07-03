@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery Basic</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript">
+    $(document).ready(function() {
+        $("body").css("background-color","burlywood");
+        $(".Msg").text("Let's know the length of your name");
+        $("#Length").click(function() {
+            strLength();
+        });
+    });
+    </script>
+    
+    <style>
+        
+        .Msg {
+            color:black;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+
+    </style>
+
+    <script type="text/javascript" src="jsfile.js"></script>
+
+</head>
+<body align="start">
+    <span class="Msg"></span><br><br>
+    <input type="text" id="Name" /><br><br>
+    <button id="Length">Get Length</button><br><br>
+</body>
+</html>

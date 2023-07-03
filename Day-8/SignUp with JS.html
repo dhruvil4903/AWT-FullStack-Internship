@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function() {
+            $("#submit").click(function(){
+                alert("Thanks for Signing Up. You're now successfully registered under Silver Oak University")
+            });
+        });
+    </script>
+
+    <style>
+        label{
+            font-size: large;
+        }
+        .box{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        form{
+            background-color: rgba(0, 0, 0, 0.312);
+            background-image: linear-gradient(rgba(133, 246, 233, 0.647),#fb9bce80);
+            width:400px;
+        }
+    </style>
+</head>
+<body>
+    
+        
+    <div class="box">
+        <form>
+            <fieldset>  
+                <legend><h2>SignUp Form</h2></legend>
+                    <label><i class="fa-solid fa-user fa-bounce fa-lg" style="color: #000000;"></i>&nbsp;&nbsp;Username:</label><br>
+                    <input type="text"><br><br><br>
+                    <label><i class="fa-solid fa-graduation-cap fa-bounce fa-lg"></i>&nbsp;&nbsp;Enrollment No:</label><br>
+                    <input type="text"><br><br><br>
+                    <label><i class="fa-solid fa-key fa-bounce fa-lg"></i>&nbsp;&nbsp;Passcode:</label><br>
+                    <input type="text"><br><br><br>
+                    <label><i class="fa-solid fa-person-half-dress fa-bounce fa-xl"></i>&nbsp;&nbsp;Gender</label></p>
+                    <input type="radio">
+                    <label><i class="fa-solid fa-person fa-bounce fa-lg" style="color:#070d2c;"></i>&nbsp;&nbsp;Male</label>
+                    <input type="radio">
+                    <label><i class="fa-solid fa-person-dress fa-bounce fa-lg" style="color: #751835;"></i>&nbsp;&nbsp;Female</label><br><br><br>
+
+                    <label><i class="fa-solid fa-building-columns fa-bounce"></i>&nbsp;&nbsp;College</label></p>
+                    <input type="checkbox">
+                    <label><i class="fa-solid fa-star fa-bounce" style="color: #0c501d;"></i>&nbsp;&nbsp;ASOIT</label>
+                    <input type="checkbox">
+                    <label><i class="fa-solid fa-star fa-bounce" style="color: #50280c;"></i>&nbsp;&nbsp;SOCET</label><br><br><br>
+                    <input id="submit" type="submit" value="Sign Up">   <br><br>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
