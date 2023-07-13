@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	/* background-image: url(./customer-experience-g2ec26dc14_1280.jpg); */
+	background-color: #819FF7;
+	font-family:helvetica;
+	height:2000px;
+}
+h1
+{
+	text-align:center;
+	margin-top:150px;
+	color:#819FF7;
+	width:600px;
+	margin-left:200px;
+}
+#form
+{
+    position: fixed;
+	/* bottom: 0px; */
+	left:40%;
+	width:250px;
+	border:2px solid rgb(128, 126, 0);
+	padding:0px;
+}
+#form p
+{
+	margin:0px;
+	background-color:green;
+	text-align:center;
+	color:#CED8F6;
+	padding:10px;
+	font-size:20px;
+	font-style:oblique;
+	cursor:pointer;
+}
+/* form
+{
+	display:none;
+} */
+input[type="text"]
+{
+	width:220px;
+	margin-left:15px;
+	height:35px;
+	margin-top:10px;
+	padding:5px;
+	border-radius:5px;
+	border:2px solid black;
+}
+textarea
+{
+	width:220px;
+	margin-left:15px;
+	height:100px;
+	margin-top:10px;
+	padding:5px;
+	border-radius:5px;
+	border:2px solid black;
+	font-family:helvetica;
+}
+#submit_feedback
+{
+	width:120px;
+	margin-left:65px;
+	background-color:green;
+	border:none;
+	color:white;
+	height:35px;
+	font-size:18px;
+	margin-top:10px;
+	border-radius:5px;
+}
+
+#submit_feedback:hover
+{
+font-size: 1.3rem;
+cursor: pointer;
+}
+
+form{
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 10%;
+	border: 3px solid black;
+	background-color:black;
+	border-radius: 15px;
+	/* background-image: url(./willow-leaved-pear-gc5f465c8b_1280.jpg); */
+	background-size: cover;
+	
+}
+
+
+input ::placeholder
+{
+	color: black;
+}
+

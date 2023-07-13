@@ -1,0 +1,48 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Feedback Form</title>
+<!-- <script type="text/javascript" src="jquery.js"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script >
+
+$(document).ready(function(){
+  $("#feedback_button").click(function(){
+    form();
+  });
+});
+	
+function form()
+{
+  $("form").slideToggle();
+}
+
+
+function dailog(){
+  alert("Thanks for Feedback💖")
+} 
+</script>
+
+</head>
+
+<body>
+
+  <!-- <h1>Easy Feedback Form On Page Bottom Using jQuery,HTML And CSS</h1> -->
+
+  <!-- <div id="form"> -->
+    <!-- <p id="feedback_button">Feedback</p> -->
+   
+	<form  onsubmit="dailog()">
+      <input type="text" id="name" placeholder="Name" required>
+      <br>
+      <input type="text" id="email" placeholder="Email" required>
+      <br>
+      <textarea id="feedback" placeholder="Feedback" required></textarea>
+      <br>
+      <input type="submit" id="submit_feedback" values="Submit" required>
+      
+      <!-- <center><h3>Thank's for Feedback👌</h3></center> -->
+    </form>
+  <!-- </div> -->
+</body>
+</html>
